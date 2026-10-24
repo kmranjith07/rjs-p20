@@ -2,6 +2,7 @@
   "name": "rjs-p20-blog",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://abdulbazeer.github.io/rjs-prg20/",
   "dependencies": {
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",

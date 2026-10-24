@@ -3,6 +3,10 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
 
+beforeEach(() => {
+  window.history.pushState({}, "", "/");
+});
+
 describe("Program 20 - Nested Blog Routes", () => {
   test("displays the Home page", () => {
     render(<App />);
